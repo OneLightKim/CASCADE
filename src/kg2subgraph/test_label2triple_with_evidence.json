@@ -1,0 +1,4032 @@
+[
+  {
+    "status": "success",
+    "condition": "depression",
+    "user_query": "I'm suffering from major depression and feel hopeless. What treatment options are available?",
+    "all_triples": [
+      {
+        "start_node": {
+          "name": "mixed anxiety and depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Chlordiazepoxide",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 10,
+        "activity_ratio": 0.01,
+        "evidence_score": 0.009950330853168092
+      },
+      {
+        "start_node": {
+          "name": "mixed anxiety and depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Maprotiline",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 809,
+        "effective_activities": 18,
+        "activity_ratio": 0.022249690976514216,
+        "evidence_score": 0.0220057779651996
+      },
+      {
+        "start_node": {
+          "name": "mixed anxiety and depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Perphenazine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 857,
+        "effective_activities": 5,
+        "activity_ratio": 0.005834305717619603,
+        "evidence_score": 0.005817352065913264
+      },
+      {
+        "start_node": {
+          "name": "mixed anxiety and depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Amitriptyline",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 32,
+        "activity_ratio": 0.032,
+        "evidence_score": 0.031498667059371016
+      },
+      {
+        "start_node": {
+          "name": "mixed anxiety and depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Alprazolam",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 917,
+        "effective_activities": 5,
+        "activity_ratio": 0.0054525627044711015,
+        "evidence_score": 0.005437751300128909
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Dosulepin",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 0,
+        "phase_weight": 0,
+        "total_activities": 0,
+        "effective_activities": 0,
+        "activity_ratio": 0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Vortioxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 68,
+        "effective_activities": 8,
+        "activity_ratio": 0.11764705882352941,
+        "evidence_score": 0.1112256351102244
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Trazodone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 613,
+        "effective_activities": 16,
+        "activity_ratio": 0.026101141924959218,
+        "evidence_score": 0.02576632076422918
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Paroxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 23,
+        "activity_ratio": 0.023,
+        "evidence_score": 0.02273948696948934
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Duloxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 278,
+        "effective_activities": 37,
+        "activity_ratio": 0.13309352517985612,
+        "evidence_score": 0.12495152513499605
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Tranylcypromine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 0,
+        "phase_weight": 0,
+        "total_activities": 24,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Mianserin",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 40,
+        "activity_ratio": 0.04,
+        "evidence_score": 0.03922071315328133
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Agomelatine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 263,
+        "effective_activities": 23,
+        "activity_ratio": 0.08745247148288973,
+        "evidence_score": 0.08383777864208801
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Olanzapine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 36,
+        "activity_ratio": 0.036,
+        "evidence_score": 0.035367143837291344
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Bupropion",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 22,
+        "activity_ratio": 0.022,
+        "evidence_score": 0.02176149178151271
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Isocarboxazid",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 133,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Reboxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 144,
+        "effective_activities": 14,
+        "activity_ratio": 0.09722222222222222,
+        "evidence_score": 0.09278173345096627
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Mirtazapine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 5,
+        "activity_ratio": 0.005,
+        "evidence_score": 0.004987541511038968
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Citalopram",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 16,
+        "activity_ratio": 0.016,
+        "evidence_score": 0.015873349156290163
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Escitalopram",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 210,
+        "effective_activities": 2,
+        "activity_ratio": 0.009523809523809525,
+        "evidence_score": 0.009478743954543739
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Fluoxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 58,
+        "activity_ratio": 0.058,
+        "evidence_score": 0.05638033343610769
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Nefazodone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 342,
+        "effective_activities": 2,
+        "activity_ratio": 0.005847953216374269,
+        "evidence_score": 0.005830920310793144
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Levomilnacipran",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 44,
+        "effective_activities": 5,
+        "activity_ratio": 0.11363636363636363,
+        "evidence_score": 0.10763066419236536
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Ketamine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 819,
+        "effective_activities": 4,
+        "activity_ratio": 0.004884004884004884,
+        "evidence_score": 0.004872116824000371
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Selegiline",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 989,
+        "effective_activities": 128,
+        "activity_ratio": 0.12942366026289182,
+        "evidence_score": 0.12170746744648855
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Gepirone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 50,
+        "effective_activities": 2,
+        "activity_ratio": 0.04,
+        "evidence_score": 0.03922071315328133
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Venlafaxine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 26,
+        "activity_ratio": 0.026,
+        "evidence_score": 0.025667746748577813
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Vilazodone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 181,
+        "effective_activities": 21,
+        "activity_ratio": 0.11602209944751381,
+        "evidence_score": 0.10977066613537904
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Desvenlafaxine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 167,
+        "effective_activities": 5,
+        "activity_ratio": 0.029940119760479042,
+        "evidence_score": 0.02950066439669784
+      },
+      {
+        "start_node": {
+          "name": "unipolar depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Brexpiprazole",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 7,
+        "activity_ratio": 0.007,
+        "evidence_score": 0.006975613736425138
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Paroxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 23,
+        "activity_ratio": 0.023,
+        "evidence_score": 0.02273948696948934
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Sertraline",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 39,
+        "activity_ratio": 0.039,
+        "evidence_score": 0.03825871211709027
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Fluoxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 58,
+        "activity_ratio": 0.058,
+        "evidence_score": 0.05638033343610769
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Reboxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 144,
+        "effective_activities": 14,
+        "activity_ratio": 0.09722222222222222,
+        "evidence_score": 0.09278173345096627
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Selegiline",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 989,
+        "effective_activities": 128,
+        "activity_ratio": 0.12942366026289182,
+        "evidence_score": 0.12170746744648855
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Tranylcypromine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 0,
+        "phase_weight": 0,
+        "total_activities": 24,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Isocarboxazid",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 133,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Fluoxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 58,
+        "activity_ratio": 0.058,
+        "evidence_score": 0.05638033343610769
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Desvenlafaxine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 167,
+        "effective_activities": 5,
+        "activity_ratio": 0.029940119760479042,
+        "evidence_score": 0.02950066439669784
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Levomilnacipran",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 44,
+        "effective_activities": 5,
+        "activity_ratio": 0.11363636363636363,
+        "evidence_score": 0.10763066419236536
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Brexpiprazole",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 7,
+        "activity_ratio": 0.007,
+        "evidence_score": 0.006975613736425138
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Nefazodone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 342,
+        "effective_activities": 2,
+        "activity_ratio": 0.005847953216374269,
+        "evidence_score": 0.005830920310793144
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Vilazodone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 181,
+        "effective_activities": 21,
+        "activity_ratio": 0.11602209944751381,
+        "evidence_score": 0.10977066613537904
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Mirtazapine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 5,
+        "activity_ratio": 0.005,
+        "evidence_score": 0.004987541511038968
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Bupropion",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 22,
+        "activity_ratio": 0.022,
+        "evidence_score": 0.02176149178151271
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Duloxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 278,
+        "effective_activities": 37,
+        "activity_ratio": 0.13309352517985612,
+        "evidence_score": 0.12495152513499605
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Ketamine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 819,
+        "effective_activities": 4,
+        "activity_ratio": 0.004884004884004884,
+        "evidence_score": 0.004872116824000371
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Citalopram",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 16,
+        "activity_ratio": 0.016,
+        "evidence_score": 0.015873349156290163
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Vortioxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 68,
+        "effective_activities": 8,
+        "activity_ratio": 0.11764705882352941,
+        "evidence_score": 0.1112256351102244
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Dosulepin",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 0,
+        "phase_weight": 0,
+        "total_activities": 0,
+        "effective_activities": 0,
+        "activity_ratio": 0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Gepirone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 50,
+        "effective_activities": 2,
+        "activity_ratio": 0.04,
+        "evidence_score": 0.03922071315328133
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Olanzapine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 36,
+        "activity_ratio": 0.036,
+        "evidence_score": 0.035367143837291344
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Mianserin",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 40,
+        "activity_ratio": 0.04,
+        "evidence_score": 0.03922071315328133
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Agomelatine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 263,
+        "effective_activities": 23,
+        "activity_ratio": 0.08745247148288973,
+        "evidence_score": 0.08383777864208801
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Escitalopram",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 210,
+        "effective_activities": 2,
+        "activity_ratio": 0.009523809523809525,
+        "evidence_score": 0.009478743954543739
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Venlafaxine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 26,
+        "activity_ratio": 0.026,
+        "evidence_score": 0.025667746748577813
+      },
+      {
+        "start_node": {
+          "name": "endogenous depression",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Trazodone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 613,
+        "effective_activities": 16,
+        "activity_ratio": 0.026101141924959218,
+        "evidence_score": 0.02576632076422918
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Venlafaxine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 26,
+        "activity_ratio": 0.026,
+        "evidence_score": 0.025667746748577813
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Isocarboxazid",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 133,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Duloxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 278,
+        "effective_activities": 37,
+        "activity_ratio": 0.13309352517985612,
+        "evidence_score": 0.12495152513499605
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Desvenlafaxine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 167,
+        "effective_activities": 5,
+        "activity_ratio": 0.029940119760479042,
+        "evidence_score": 0.02950066439669784
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Gepirone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 50,
+        "effective_activities": 2,
+        "activity_ratio": 0.04,
+        "evidence_score": 0.03922071315328133
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Levomilnacipran",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 44,
+        "effective_activities": 5,
+        "activity_ratio": 0.11363636363636363,
+        "evidence_score": 0.10763066419236536
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Dosulepin",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 0,
+        "phase_weight": 0,
+        "total_activities": 0,
+        "effective_activities": 0,
+        "activity_ratio": 0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Fluoxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 58,
+        "activity_ratio": 0.058,
+        "evidence_score": 0.05638033343610769
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Brexpiprazole",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 7,
+        "activity_ratio": 0.007,
+        "evidence_score": 0.006975613736425138
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Mirtazapine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 5,
+        "activity_ratio": 0.005,
+        "evidence_score": 0.004987541511038968
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Selegiline",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 989,
+        "effective_activities": 128,
+        "activity_ratio": 0.12942366026289182,
+        "evidence_score": 0.12170746744648855
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Vortioxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 68,
+        "effective_activities": 8,
+        "activity_ratio": 0.11764705882352941,
+        "evidence_score": 0.1112256351102244
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Paroxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 23,
+        "activity_ratio": 0.023,
+        "evidence_score": 0.02273948696948934
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Reboxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 144,
+        "effective_activities": 14,
+        "activity_ratio": 0.09722222222222222,
+        "evidence_score": 0.09278173345096627
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Bupropion",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 22,
+        "activity_ratio": 0.022,
+        "evidence_score": 0.02176149178151271
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Citalopram",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 16,
+        "activity_ratio": 0.016,
+        "evidence_score": 0.015873349156290163
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Vilazodone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 181,
+        "effective_activities": 21,
+        "activity_ratio": 0.11602209944751381,
+        "evidence_score": 0.10977066613537904
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Olanzapine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 36,
+        "activity_ratio": 0.036,
+        "evidence_score": 0.035367143837291344
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Mianserin",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 40,
+        "activity_ratio": 0.04,
+        "evidence_score": 0.03922071315328133
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Trazodone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 613,
+        "effective_activities": 16,
+        "activity_ratio": 0.026101141924959218,
+        "evidence_score": 0.02576632076422918
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Nefazodone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 342,
+        "effective_activities": 2,
+        "activity_ratio": 0.005847953216374269,
+        "evidence_score": 0.005830920310793144
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Agomelatine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 263,
+        "effective_activities": 23,
+        "activity_ratio": 0.08745247148288973,
+        "evidence_score": 0.08383777864208801
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Ketamine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 819,
+        "effective_activities": 4,
+        "activity_ratio": 0.004884004884004884,
+        "evidence_score": 0.004872116824000371
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Escitalopram",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 210,
+        "effective_activities": 2,
+        "activity_ratio": 0.009523809523809525,
+        "evidence_score": 0.009478743954543739
+      },
+      {
+        "start_node": {
+          "name": "major depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Tranylcypromine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 0,
+        "phase_weight": 0,
+        "total_activities": 24,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      }
+    ],
+    "selected_triple": {
+      "start_node": {
+        "name": "major depressive disorder",
+        "type": "disease"
+      },
+      "relation": "indication",
+      "end_node": {
+        "name": "Venlafaxine",
+        "type": "drug"
+      },
+      "priority": 1,
+      "relevance_score": -5.2993597984313965,
+      "natural_sentence": "Venlafaxine is an indication for major depressive disorder",
+      "selection_criteria": {
+        "method": "BM25 + DPR + Cross-encoder",
+        "total_candidates": 82,
+        "bm25_candidates": 20,
+        "dpr_candidates": 20,
+        "combined_candidates": 36,
+        "final_relevance_score": -5.2993597984313965,
+        "ranking_position": 1,
+        "selection_reason": "Cross-encoder에서 가장 높은 relevance score (-5.2994)를 기록"
+      },
+      "max_phase": 4.0,
+      "phase_weight": 1.0,
+      "total_activities": 1000,
+      "effective_activities": 26,
+      "activity_ratio": 0.026,
+      "evidence_score": 0.025667746748577813
+    },
+    "total_triples_found": 82,
+    "selected_count": 1,
+    "summary": "'depression' 질환에 대해 총 82개의 치료법 관련 triple을 찾았고, 그 중 1개를 선별했습니다."
+  },
+  {
+    "status": "success",
+    "condition": "anxiety",
+    "user_query": "I have been experiencing severe anxiety and panic attacks lately. What treatments would be most effective?",
+    "all_triples": [
+      {
+        "start_node": {
+          "name": "social phobia",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Paroxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 23,
+        "activity_ratio": 0.023,
+        "evidence_score": 0.02273948696948934
+      },
+      {
+        "start_node": {
+          "name": "social phobia",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Sertraline",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 39,
+        "activity_ratio": 0.039,
+        "evidence_score": 0.03825871211709027
+      },
+      {
+        "start_node": {
+          "name": "social phobia",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Fluvoxamine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 237,
+        "effective_activities": 2,
+        "activity_ratio": 0.008438818565400843,
+        "evidence_score": 0.00840341079637938
+      },
+      {
+        "start_node": {
+          "name": "social phobia",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Venlafaxine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 26,
+        "activity_ratio": 0.026,
+        "evidence_score": 0.025667746748577813
+      },
+      {
+        "start_node": {
+          "name": "social phobia",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Desvenlafaxine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 167,
+        "effective_activities": 5,
+        "activity_ratio": 0.029940119760479042,
+        "evidence_score": 0.02950066439669784
+      },
+      {
+        "start_node": {
+          "name": "mixed anxiety and depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Chlordiazepoxide",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 10,
+        "activity_ratio": 0.01,
+        "evidence_score": 0.009950330853168092
+      },
+      {
+        "start_node": {
+          "name": "mixed anxiety and depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Maprotiline",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 809,
+        "effective_activities": 18,
+        "activity_ratio": 0.022249690976514216,
+        "evidence_score": 0.0220057779651996
+      },
+      {
+        "start_node": {
+          "name": "mixed anxiety and depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Perphenazine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 857,
+        "effective_activities": 5,
+        "activity_ratio": 0.005834305717619603,
+        "evidence_score": 0.005817352065913264
+      },
+      {
+        "start_node": {
+          "name": "mixed anxiety and depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Amitriptyline",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 32,
+        "activity_ratio": 0.032,
+        "evidence_score": 0.031498667059371016
+      },
+      {
+        "start_node": {
+          "name": "mixed anxiety and depressive disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Alprazolam",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 917,
+        "effective_activities": 5,
+        "activity_ratio": 0.0054525627044711015,
+        "evidence_score": 0.005437751300128909
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Captodiame",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 0,
+        "phase_weight": 0,
+        "total_activities": 0,
+        "effective_activities": 0,
+        "activity_ratio": 0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Clonazepam",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 3,
+        "activity_ratio": 0.003,
+        "evidence_score": 0.002995508979798371
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Imipramine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 46,
+        "activity_ratio": 0.046,
+        "evidence_score": 0.044973365642731196
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Chlordiazepoxide",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 10,
+        "activity_ratio": 0.01,
+        "evidence_score": 0.009950330853168092
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Desipramine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 885,
+        "effective_activities": 34,
+        "activity_ratio": 0.0384180790960452,
+        "evidence_score": 0.03769847734775745
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Diazepam",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 57,
+        "activity_ratio": 0.057,
+        "evidence_score": 0.055434706888100524
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Escitalopram",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 210,
+        "effective_activities": 2,
+        "activity_ratio": 0.009523809523809525,
+        "evidence_score": 0.009478743954543739
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Alprazolam",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 917,
+        "effective_activities": 5,
+        "activity_ratio": 0.0054525627044711015,
+        "evidence_score": 0.005437751300128909
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Citalopram",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 16,
+        "activity_ratio": 0.016,
+        "evidence_score": 0.015873349156290163
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Pregabalin",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 274,
+        "effective_activities": 9,
+        "activity_ratio": 0.032846715328467155,
+        "evidence_score": 0.03231879125516731
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Lorazepam",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 1,
+        "activity_ratio": 0.001,
+        "evidence_score": 0.0009995003330834232
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Buspirone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 34,
+        "activity_ratio": 0.034,
+        "evidence_score": 0.03343477608623742
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Desvenlafaxine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 167,
+        "effective_activities": 5,
+        "activity_ratio": 0.029940119760479042,
+        "evidence_score": 0.02950066439669784
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Levomilnacipran",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 44,
+        "effective_activities": 5,
+        "activity_ratio": 0.11363636363636363,
+        "evidence_score": 0.10763066419236536
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Gepirone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 50,
+        "effective_activities": 2,
+        "activity_ratio": 0.04,
+        "evidence_score": 0.03922071315328133
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Tranylcypromine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 0,
+        "phase_weight": 0,
+        "total_activities": 24,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Mianserin",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 40,
+        "activity_ratio": 0.04,
+        "evidence_score": 0.03922071315328133
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Trazodone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 613,
+        "effective_activities": 16,
+        "activity_ratio": 0.026101141924959218,
+        "evidence_score": 0.02576632076422918
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Olanzapine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 36,
+        "activity_ratio": 0.036,
+        "evidence_score": 0.035367143837291344
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Dosulepin",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 0,
+        "phase_weight": 0,
+        "total_activities": 0,
+        "effective_activities": 0,
+        "activity_ratio": 0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Isocarboxazid",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 133,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Duloxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 278,
+        "effective_activities": 37,
+        "activity_ratio": 0.13309352517985612,
+        "evidence_score": 0.12495152513499605
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Ketamine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 819,
+        "effective_activities": 4,
+        "activity_ratio": 0.004884004884004884,
+        "evidence_score": 0.004872116824000371
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Vortioxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 68,
+        "effective_activities": 8,
+        "activity_ratio": 0.11764705882352941,
+        "evidence_score": 0.1112256351102244
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Agomelatine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 263,
+        "effective_activities": 23,
+        "activity_ratio": 0.08745247148288973,
+        "evidence_score": 0.08383777864208801
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Escitalopram",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 210,
+        "effective_activities": 2,
+        "activity_ratio": 0.009523809523809525,
+        "evidence_score": 0.009478743954543739
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Brexpiprazole",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 7,
+        "activity_ratio": 0.007,
+        "evidence_score": 0.006975613736425138
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Mirtazapine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 5,
+        "activity_ratio": 0.005,
+        "evidence_score": 0.004987541511038968
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Vilazodone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 181,
+        "effective_activities": 21,
+        "activity_ratio": 0.11602209944751381,
+        "evidence_score": 0.10977066613537904
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Desvenlafaxine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 167,
+        "effective_activities": 5,
+        "activity_ratio": 0.029940119760479042,
+        "evidence_score": 0.02950066439669784
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Selegiline",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 989,
+        "effective_activities": 128,
+        "activity_ratio": 0.12942366026289182,
+        "evidence_score": 0.12170746744648855
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Nefazodone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 342,
+        "effective_activities": 2,
+        "activity_ratio": 0.005847953216374269,
+        "evidence_score": 0.005830920310793144
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Venlafaxine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 26,
+        "activity_ratio": 0.026,
+        "evidence_score": 0.025667746748577813
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Reboxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 144,
+        "effective_activities": 14,
+        "activity_ratio": 0.09722222222222222,
+        "evidence_score": 0.09278173345096627
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Esketamine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 99,
+        "effective_activities": 2,
+        "activity_ratio": 0.020202020202020204,
+        "evidence_score": 0.020000666706669435
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Amitriptyline",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 32,
+        "activity_ratio": 0.032,
+        "evidence_score": 0.031498667059371016
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Setiptiline",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 2.0,
+        "phase_weight": 0.5,
+        "total_activities": 38,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Iproclozide",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 2.0,
+        "phase_weight": 0.5,
+        "total_activities": 23,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Methylphenidate",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 157,
+        "effective_activities": 6,
+        "activity_ratio": 0.03821656050955414,
+        "evidence_score": 0.03750439545845427
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Bupropion",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 22,
+        "activity_ratio": 0.022,
+        "evidence_score": 0.02176149178151271
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Caroxazone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 2.0,
+        "phase_weight": 0.5,
+        "total_activities": 8,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Phenelzine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 812,
+        "effective_activities": 9,
+        "activity_ratio": 0.011083743842364532,
+        "evidence_score": 0.011022769290750285
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Maprotiline",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 809,
+        "effective_activities": 18,
+        "activity_ratio": 0.022249690976514216,
+        "evidence_score": 0.0220057779651996
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Opipramol",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 3.0,
+        "phase_weight": 0.75,
+        "total_activities": 147,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Pirlindole",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 2.0,
+        "phase_weight": 0.5,
+        "total_activities": 94,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Imipramine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 46,
+        "activity_ratio": 0.046,
+        "evidence_score": 0.044973365642731196
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Amoxapine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 17,
+        "activity_ratio": 0.017,
+        "evidence_score": 0.016857117066422806
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Desipramine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 885,
+        "effective_activities": 34,
+        "activity_ratio": 0.0384180790960452,
+        "evidence_score": 0.03769847734775745
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Moclobemide",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 974,
+        "effective_activities": 3,
+        "activity_ratio": 0.003080082135523614,
+        "evidence_score": 0.0030753484002477133
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Demexiptiline",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 2.0,
+        "phase_weight": 0.5,
+        "total_activities": 19,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Ethyl loflazepate",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 2.0,
+        "phase_weight": 0.5,
+        "total_activities": 19,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Doxepin",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 23,
+        "activity_ratio": 0.023,
+        "evidence_score": 0.02273948696948934
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Nortriptyline",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 27,
+        "activity_ratio": 0.027,
+        "evidence_score": 0.026641930946421092
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Protriptyline",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 184,
+        "effective_activities": 10,
+        "activity_ratio": 0.05434782608695652,
+        "evidence_score": 0.05292240145434253
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Mebanazine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 24,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Lofepramine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 151,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Iproniazid",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 1,
+        "activity_ratio": 0.001,
+        "evidence_score": 0.0009995003330834232
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Sertraline",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 39,
+        "activity_ratio": 0.039,
+        "evidence_score": 0.03825871211709027
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Amineptine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 142,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Paroxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 23,
+        "activity_ratio": 0.023,
+        "evidence_score": 0.02273948696948934
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Fluvoxamine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 237,
+        "effective_activities": 2,
+        "activity_ratio": 0.008438818565400843,
+        "evidence_score": 0.00840341079637938
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Butriptyline",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 55,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Clomipramine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 34,
+        "activity_ratio": 0.034,
+        "evidence_score": 0.03343477608623742
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Toloxatone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 155,
+        "effective_activities": 5,
+        "activity_ratio": 0.03225806451612903,
+        "evidence_score": 0.03174869831458027
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Citalopram",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 16,
+        "activity_ratio": 0.016,
+        "evidence_score": 0.015873349156290163
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Fluoxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 58,
+        "activity_ratio": 0.058,
+        "evidence_score": 0.05638033343610769
+      },
+      {
+        "start_node": {
+          "name": "anxiety disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Trimipramine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 211,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Lorazepam",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 1,
+        "activity_ratio": 0.001,
+        "evidence_score": 0.0009995003330834232
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Clomipramine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 34,
+        "activity_ratio": 0.034,
+        "evidence_score": 0.03343477608623742
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Doxepin",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 23,
+        "activity_ratio": 0.023,
+        "evidence_score": 0.02273948696948934
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Trifluoperazine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 805,
+        "effective_activities": 5,
+        "activity_ratio": 0.006211180124223602,
+        "evidence_score": 0.00619197024792098
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Perazine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 3.0,
+        "phase_weight": 0.75,
+        "total_activities": 50,
+        "effective_activities": 1,
+        "activity_ratio": 0.02,
+        "evidence_score": 0.014888612493750559
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Desipramine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 885,
+        "effective_activities": 34,
+        "activity_ratio": 0.0384180790960452,
+        "evidence_score": 0.03769847734775745
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Imipramine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 46,
+        "activity_ratio": 0.046,
+        "evidence_score": 0.044973365642731196
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Oxazepam",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 337,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Diazepam",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 57,
+        "activity_ratio": 0.057,
+        "evidence_score": 0.055434706888100524
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Halazepam",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 113,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Ethyl loflazepate",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 2.0,
+        "phase_weight": 0.5,
+        "total_activities": 19,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Mebicar",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": -1.0,
+        "phase_weight": 0,
+        "total_activities": 73,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Meprobamate",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 147,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Chlordiazepoxide",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 10,
+        "activity_ratio": 0.01,
+        "evidence_score": 0.009950330853168092
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Midazolam",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 453,
+        "effective_activities": 5,
+        "activity_ratio": 0.011037527593818985,
+        "evidence_score": 0.010977058631150994
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Alprazolam",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 917,
+        "effective_activities": 5,
+        "activity_ratio": 0.0054525627044711015,
+        "evidence_score": 0.005437751300128909
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Oxprenolol",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 221,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Acebutolol",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 577,
+        "effective_activities": 1,
+        "activity_ratio": 0.0017331022530329288,
+        "evidence_score": 0.0017316021642778939
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Oxaflozane",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 2.0,
+        "phase_weight": 0.5,
+        "total_activities": 31,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Chlormezanone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Methylphenobarbital",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 0,
+        "phase_weight": 0,
+        "total_activities": 0,
+        "effective_activities": 0,
+        "activity_ratio": 0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Prazepam",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 38,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "anxiety",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Etizolam",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 2.0,
+        "phase_weight": 0.5,
+        "total_activities": 83,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      }
+    ],
+    "selected_triple": {
+      "start_node": {
+        "name": "anxiety",
+        "type": "disease"
+      },
+      "relation": "indication",
+      "end_node": {
+        "name": "Alprazolam",
+        "type": "drug"
+      },
+      "priority": 1,
+      "relevance_score": -3.683521032333374,
+      "natural_sentence": "Alprazolam is an indication for anxiety",
+      "selection_criteria": {
+        "method": "BM25 + DPR + Cross-encoder",
+        "total_candidates": 100,
+        "bm25_candidates": 20,
+        "dpr_candidates": 20,
+        "combined_candidates": 37,
+        "final_relevance_score": -3.683521032333374,
+        "ranking_position": 1,
+        "selection_reason": "Cross-encoder에서 가장 높은 relevance score (-3.6835)를 기록"
+      },
+      "max_phase": 4.0,
+      "phase_weight": 1.0,
+      "total_activities": 917,
+      "effective_activities": 5,
+      "activity_ratio": 0.0054525627044711015,
+      "evidence_score": 0.005437751300128909
+    },
+    "total_triples_found": 100,
+    "selected_count": 1,
+    "summary": "'anxiety' 질환에 대해 총 100개의 치료법 관련 triple을 찾았고, 그 중 1개를 선별했습니다."
+  },
+  {
+    "status": "success",
+    "condition": "bipolar",
+    "user_query": "I have bipolar disorder with manic episodes. What medication can help stabilize my mood?",
+    "all_triples": [
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Risperidone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 51,
+        "activity_ratio": 0.051,
+        "evidence_score": 0.04974209189481401
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Aripiprazole",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 860,
+        "effective_activities": 58,
+        "activity_ratio": 0.06744186046511629,
+        "evidence_score": 0.06526500137293711
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Asenapine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 0,
+        "phase_weight": 0,
+        "total_activities": 1,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Cariprazine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 176,
+        "effective_activities": 26,
+        "activity_ratio": 0.14772727272727273,
+        "evidence_score": 0.13778370236305296
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Ziprasidone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 471,
+        "effective_activities": 12,
+        "activity_ratio": 0.025477707006369428,
+        "evidence_score": 0.02515855963615493
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Carbamazepine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Carbamazepine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Paroxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 23,
+        "activity_ratio": 0.023,
+        "evidence_score": 0.02273948696948934
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Doxepin",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 23,
+        "activity_ratio": 0.023,
+        "evidence_score": 0.02273948696948934
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Lithium carbonate",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 7,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Primidone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 725,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Phenobarbital",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 1,
+        "activity_ratio": 0.001,
+        "evidence_score": 0.0009995003330834232
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Olanzapine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 36,
+        "activity_ratio": 0.036,
+        "evidence_score": 0.035367143837291344
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Lithium carbonate",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 7,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Bupropion",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 22,
+        "activity_ratio": 0.022,
+        "evidence_score": 0.02176149178151271
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Nefazodone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 342,
+        "effective_activities": 2,
+        "activity_ratio": 0.005847953216374269,
+        "evidence_score": 0.005830920310793144
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Lithium citrate",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 0,
+        "phase_weight": 0,
+        "total_activities": 0,
+        "effective_activities": 0,
+        "activity_ratio": 0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Paliperidone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 186,
+        "effective_activities": 2,
+        "activity_ratio": 0.010752688172043012,
+        "evidence_score": 0.01069528911674795
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Citalopram",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 16,
+        "activity_ratio": 0.016,
+        "evidence_score": 0.015873349156290163
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Valproic acid",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Escitalopram",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 210,
+        "effective_activities": 2,
+        "activity_ratio": 0.009523809523809525,
+        "evidence_score": 0.009478743954543739
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Sertraline",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 39,
+        "activity_ratio": 0.039,
+        "evidence_score": 0.03825871211709027
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Lamotrigine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Fluvoxamine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 237,
+        "effective_activities": 2,
+        "activity_ratio": 0.008438818565400843,
+        "evidence_score": 0.00840341079637938
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Lurasidone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 124,
+        "effective_activities": 1,
+        "activity_ratio": 0.008064516129032258,
+        "evidence_score": 0.008032171697264253
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Ziprasidone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 471,
+        "effective_activities": 12,
+        "activity_ratio": 0.025477707006369428,
+        "evidence_score": 0.02515855963615493
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Fluoxetine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 58,
+        "activity_ratio": 0.058,
+        "evidence_score": 0.05638033343610769
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Lithium citrate",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 0,
+        "phase_weight": 0,
+        "total_activities": 0,
+        "effective_activities": 0,
+        "activity_ratio": 0,
+        "evidence_score": 0.0
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Phenytoin",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 2,
+        "activity_ratio": 0.002,
+        "evidence_score": 0.001998002662673058
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "off-label use",
+        "end_node": {
+          "name": "Risperidone",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 1000,
+        "effective_activities": 51,
+        "activity_ratio": 0.051,
+        "evidence_score": 0.04974209189481401
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Quetiapine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 966,
+        "effective_activities": 11,
+        "activity_ratio": 0.011387163561076604,
+        "evidence_score": 0.011322817830264637
+      },
+      {
+        "start_node": {
+          "name": "bipolar disorder",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Loxapine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": 4.0,
+        "phase_weight": 1.0,
+        "total_activities": 335,
+        "effective_activities": 6,
+        "activity_ratio": 0.01791044776119403,
+        "evidence_score": 0.01775194545845032
+      }
+    ],
+    "selected_triple": {
+      "start_node": {
+        "name": "bipolar disorder",
+        "type": "disease"
+      },
+      "relation": "indication",
+      "end_node": {
+        "name": "Fluoxetine",
+        "type": "drug"
+      },
+      "priority": 1,
+      "relevance_score": -0.08190314471721649,
+      "natural_sentence": "Fluoxetine is an indication for bipolar disorder",
+      "selection_criteria": {
+        "method": "BM25 + DPR + Cross-encoder",
+        "total_candidates": 32,
+        "bm25_candidates": 20,
+        "dpr_candidates": 20,
+        "combined_candidates": 30,
+        "final_relevance_score": -0.08190314471721649,
+        "ranking_position": 1,
+        "selection_reason": "Cross-encoder에서 가장 높은 relevance score (-0.0819)를 기록"
+      },
+      "max_phase": 4.0,
+      "phase_weight": 1.0,
+      "total_activities": 1000,
+      "effective_activities": 58,
+      "activity_ratio": 0.058,
+      "evidence_score": 0.05638033343610769
+    },
+    "total_triples_found": 32,
+    "selected_count": 1,
+    "summary": "'bipolar' 질환에 대해 총 32개의 치료법 관련 triple을 찾았고, 그 중 1개를 선별했습니다."
+  },
+  {
+    "status": "success",
+    "condition": "Eating_disorder",
+    "user_query": "I have anorexia nervosa and can't stop restricting food. What treatments can help?",
+    "all_triples": [
+      {
+        "start_node": {
+          "name": "anorexia nervosa",
+          "type": "disease"
+        },
+        "relation": "indication",
+        "end_node": {
+          "name": "Clortermine",
+          "type": "drug"
+        },
+        "priority": 1,
+        "max_phase": -1.0,
+        "phase_weight": 0,
+        "total_activities": 5,
+        "effective_activities": 0,
+        "activity_ratio": 0.0,
+        "evidence_score": 0.0
+      }
+    ],
+    "selected_triple": {
+      "start_node": {
+        "name": "anorexia nervosa",
+        "type": "disease"
+      },
+      "relation": "indication",
+      "end_node": {
+        "name": "Clortermine",
+        "type": "drug"
+      },
+      "priority": 1,
+      "relevance_score": -1.968353033065796,
+      "natural_sentence": "Clortermine is an indication for anorexia nervosa",
+      "selection_criteria": {
+        "method": "BM25 + DPR + Cross-encoder",
+        "total_candidates": 1,
+        "bm25_candidates": 1,
+        "dpr_candidates": 1,
+        "combined_candidates": 1,
+        "final_relevance_score": -1.968353033065796,
+        "ranking_position": 1,
+        "selection_reason": "Cross-encoder에서 가장 높은 relevance score (-1.9684)를 기록"
+      },
+      "max_phase": -1.0,
+      "phase_weight": 0,
+      "total_activities": 5,
+      "effective_activities": 0,
+      "activity_ratio": 0.0,
+      "evidence_score": 0.0
+    },
+    "total_triples_found": 1,
+    "selected_count": 1,
+    "summary": "'Eating_disorder' 질환에 대해 총 1개의 치료법 관련 triple을 찾았고, 그 중 1개를 선별했습니다."
+  }
+]
