@@ -96,6 +96,4 @@ The PsyQA dataset is distributed under its own license/policy, so you must obtai
 - **Affiliation:** Konkuk University, Department of Artificial Intelligence
 - **Authors:**
   - Kwang-Il Kim (dksk1090@konkuk.ac.kr)
-  - Seul-Gi Kim (cloudyju11@konkuk.ac.kr)
-  - Hark-Soo Kim (nlpdrkim@konkuk.ac.kr)
  
