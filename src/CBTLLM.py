@@ -84,7 +84,7 @@ def generate_cbt_response(model, tokenizer, device, question, description):
         with torch.no_grad():
             generate_ids = model.generate(
                 **inputs,
-                max_new_tokens=650,
+                max_new_tokens=600,
                 temperature=0.8,
                 do_sample=True,
                 pad_token_id=tokenizer.pad_token_id,

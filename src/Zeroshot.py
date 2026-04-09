@@ -8,7 +8,7 @@ from openai import OpenAI
 # --------------------------------------------------------------------------------
 # 1. ChatGPT API 호출을 위한 함수
 # --------------------------------------------------------------------------------
-def create_chat_completion(client, system_prompt, user_prompt, model="gpt-3.5-turbo", temperature=0.8, max_tokens=650):
+def create_chat_completion(client, system_prompt, user_prompt, model="gpt-3.5-turbo", temperature=0.8, max_tokens=600):
     """
     OpenAI의 Chat Completion API를 호출하는 함수.
     """
@@ -70,13 +70,13 @@ def main(cli_args):
 
                     # 1. 프롬프트 생성
                     system_prompt = (
-                        "You are a mental health counseling expert. Provide responses that help users address their mental health concerns. "
-                        "Please provide a comprehensive, cohesive, and empathetic response of approximately 650 tokens that flows naturally, avoids list formats, and maintains an emotionally supportive tone throughout."
+                        "You are a compassionate and empathetic mental health counseling expert. Provide responses that help users address their mental health concerns. "
+                        "Always keep your response within 600 tokens."
                     )
                     user_prompt = f"The user's counseling content is as follows:\n\n{post}\n\nPlease provide a counseling response."
 
                     # 2. ChatGPT API 호출로 텍스트 생성
-                    generated = create_chat_completion(client, system_prompt, user_prompt, model="gpt-3.5-turbo", max_tokens=650)
+                    generated = create_chat_completion(client, system_prompt, user_prompt, model="gpt-3.5-turbo", max_tokens=600)
 
                     # 3. 결과 저장
                     result = {

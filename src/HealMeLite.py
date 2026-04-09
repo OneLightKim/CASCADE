@@ -10,7 +10,7 @@ from openai import OpenAI
 # --------------------------------------------------------------------------------
 # 1. ChatGPT API 호출을 위한 함수 (첫 번째 스크립트에서 가져옴)
 # --------------------------------------------------------------------------------
-def create_chat_completion(client, system_prompt, user_prompt, model="gpt-3.5-turbo", temperature=0.8, max_tokens=650):
+def create_chat_completion(client, system_prompt, user_prompt, model="gpt-3.5-turbo", temperature=0.8, max_tokens=600):
     """
     OpenAI의 Chat Completion API를 호출하는 함수.
     """
@@ -118,22 +118,22 @@ def main(cli_args):
 
                     # Cognitive Reframing 프롬프트 생성 (제로샷 방식)
                     system_prompt = (
-                        "You are a psychotherapist practicing the 'cognitive reframing' strategy to help clients reframe their negative emotions. "
-                        "The client will provide a single statement expressing their negative thoughts and feelings. "
-                        "Please provide a comprehensive, cohesive, and empathetic response of approximately 650 tokens that flows naturally, avoids list formats, and maintains an emotionally supportive tone throughout."
+                        "You are a psychotherapist utilizing the 'cognitive reframing' strategy to help a client overcome their thinking traps. "
+                        "Your goal is to guide the client towards a balanced perspective. "
+                        "Keep your response concise and strictly within 600 tokens."
                     )
 
                     user_prompt = (
-                        "Your task is to: "
-                        "1. Identify and separate the situation from the client's thoughts and emotions. "
-                        "2. Suggest alternative, more constructive perspectives they could consider. "
-                        "3. Provide a concise, empathetic, and supportive response that combines these reframed thoughts with encouragement. "
-                        f"The client's statement: {post}"
+                        "Based on the client's statement, provide a therapeutic response that sequentially addresses the following three steps of cognitive reframing:\n"
+                        "1. Separation: Clearly distinguish the objective situation from the client's subjective thoughts and emotions.\n"
+                        "2. Brainstorming: Suggest alternative, rational perspectives or possibilities to help the client break free from their negative thinking trap.\n"
+                        "3. Integration: Conclude with an empathetic and actionable suggestion that incorporates the reframed perspective.\n"
+                        f"Client's statement: {post}"
                     )
                     print(f"@@ [{actual_idx+1}/{len(dataset)}] Cognitive Reframing 상담 응답 생성 중...")
                     
                     # ChatGPT API 호출로 텍스트 생성
-                    generated = create_chat_completion(client, system_prompt, user_prompt, model="gpt-3.5-turbo", max_tokens=650)
+                    generated = create_chat_completion(client, system_prompt, user_prompt, model="gpt-3.5-turbo", max_tokens=600)
 
                     # 결과 저장 (제로샷 방식)
                     result = {

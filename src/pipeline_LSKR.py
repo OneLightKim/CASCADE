@@ -41,7 +41,7 @@ except Exception as e:
 # --------------------------------------------------------------------------------
 # 1. ChatGPT API 호출을 위한 함수 (첫 번째 스크립트에서 가져옴)
 # --------------------------------------------------------------------------------
-def create_chat_completion(client, system_prompt, user_prompt, model="gpt-4o", temperature=0.8, max_tokens=650):
+def create_chat_completion(client, system_prompt, user_prompt, model="gpt-4o", temperature=0.8, max_tokens=600):
     """
     OpenAI의 Chat Completion API를 호출하는 함수.
     """
@@ -227,10 +227,9 @@ def main(cli_args):
                     # 2. 프롬프트 생성 (시스템 프롬프트와 사용자 프롬프트 분리)
                     if pred_label == "control":
                         system_prompt = (
-                            "You are a helpful and insightful general counselor. Your goal is to provide a thoughtful "
-                            "perspective and practical advice for everyday life concerns and general questions. "
-                            "Your tone should be supportive and encouraging, but not clinical."
-                            "Please provide a comprehensive, cohesive, and empathetic response of approximately 650 tokens that flows naturally, avoids list formats, and maintains an emotionally supportive tone throughout."
+                            "You are a helpful and insightful general counselor." 
+                            "Your goal is to provide a thoughtful perspective and practical advice for everyday life concerns and general questions."
+                            "Always keep your response within 600 tokens."
                         )
                         user_prompt = (
                             f"The user's counseling content is as follows: {post}\n\n"
@@ -282,28 +281,20 @@ def main(cli_args):
                             drug_treatment_info = "Professional medication evaluation and treatment should be considered as part of comprehensive care."
                         
                         system_prompt = (
-                            "You are a compassionate and empathetic mental health counseling expert. "
-                            "Carefully analyze the user's counseling content and respond with warmth, understanding, and non-judgment."
-                            "Your response should be supportive and comforting while still being evidence-based and tailored to the user's predicted disorder, recommended strategy, and medication information."
-                            "Please provide a comprehensive, cohesive, and empathetic response of approximately 650 tokens that flows naturally, avoids list formats, and maintains an emotionally supportive tone throughout."
-
+                            "You are a compassionate and empathetic mental health counseling expert. Provide responses that help users address their mental health concerns. "
+                            "Always keep your response within 600 tokens."
                         )
                         user_prompt = (
                             f"The user's counseling content is: {post}\n"
                             f"The predicted user's mental disorder information is : {pred_label}\n"
                             f"the Recommended treatment strategy for this condition is: {counseling_strategy}\n"
                             f"And the Relevant medication treatment information is: {drug_treatment_info}\n"
-                            "Please generate a compassionate, conversational, and well-structured response that reflects the user's counseling content with empathy and emotional support. "
-                            "Naturally integrate the predicted mental disorder, the recommended treatment strategy, and the medication information, ensuring the response flows smoothly in a natural, non-list format, with a warm and encouraging tone."
+                            "Please generate a compassionate, conversational, and well-structured counseling response by integrating the predicted mental disorder, the recommended treatment strategy, and the medication information. Ensure the response is woven into a cohesive, non-list narrative with empathy and emotional support."
                         )
 
-                            # "Please generate a response that addresses the user's counseling content while effectively incorporating the mental disorder information, treatment strategy, and medication details."
-                        # "Please generate a response that addresses the user's counseling content while effectively incorporating the mental disorder information, treatment strategy, and medication details."
-                            # "Please generate a response that reflects the user's counseling content and the predicted mental disorder, incorporating the above specialized strategies and evidence-based medication information. "
-                            # "The response should be empathetic, supportive, and practical, while being specific to their diagnosed condition."                        
-                            # "response aimed at treating the user's mental disorder by utilizing the user's counseling content, mental disorder information, and the corresponding treatment strategy and Medication Treatment Information: "
+
                     # 3. ChatGPT API 호출로 텍스트 생성
-                    generated = create_chat_completion(client, system_prompt, user_prompt, model="gpt-4o", max_tokens=650)
+                    generated = create_chat_completion(client, system_prompt, user_prompt, model="gpt-4o", max_tokens=600)
 
                     # 5. 결과 저장
                     # JSON 저장을 위해 줄바꿈 문자를 적절히 처리
